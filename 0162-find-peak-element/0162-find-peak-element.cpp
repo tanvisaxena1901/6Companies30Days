@@ -27,7 +27,7 @@ public:
             {
                l=mid+1;
             }
-            else if(nums[mid]<=nums[mid-1])
+            else if(nums[mid]<nums[mid-1])
             {
                
                r=mid-1;
