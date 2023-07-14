@@ -23,14 +23,8 @@ public:
                 }
             }
         }
-        int rcnt=0;
-        // for(int i=0;i<n;i++)
-        // {
-        //     if(nums[i]==candi)
-        //     {
-        //         rcnt++;
-        //     }
-        // }
+    
+      
         return candi;
         
     }
