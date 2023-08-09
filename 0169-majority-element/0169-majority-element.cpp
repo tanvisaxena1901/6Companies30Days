@@ -13,19 +13,16 @@ public:
             }
             else
             {
-                if(nums[i]==candi)
-                {
-                    cnt++;
-                }
-                else
-                {
-                    cnt--;
-                }
+            if(nums[i]==candi)
+            {
+                cnt++;
+            }
+            else
+            {
+               cnt--;
+            }
             }
         }
-    
-      
-        return candi;
-        
+       return candi; 
     }
 };
